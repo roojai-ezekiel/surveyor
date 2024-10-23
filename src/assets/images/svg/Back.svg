@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thank-you-page" transform="translate(-688.000000, -513.000000)">
+            <g id="Back" transform="translate(696.000000, 520.692308) rotate(-180.000000) translate(-696.000000, -520.692308) translate(688.000000, 513.000000)">
+                <g>
+                    <g id="Shape" transform="translate(7.950769, 8.000000) scale(-1, 1) translate(-7.950769, -8.000000) translate(1.181538, 1.538462)" stroke-linecap="round" stroke="#FF4F03">
+                        <polyline id="Line" stroke-linejoin="round" points="6.72 12.6153846 2.84217094e-14 6.14595661 6.72 3.02745374e-14"></polyline>
+                        <path d="M2.70743428e-14,6.15384615 L13.44,6.15384615" id="Line"></path>
+                    </g>
+                    <rect id="Bounds" x="0" y="0" width="16" height="15.3846154"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

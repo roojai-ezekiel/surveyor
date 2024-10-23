@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0, shrink-to-fit=no">
+    <meta name="googlebot" content="noindex">
+    <meta name="googlebot-news" content="nosnippet">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+     <title>Surveyor Mobile 2.0</title>
+    <link rel="stylesheet" href="assets/libs/bootstrap4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/daterangepicker3.1.0/css/daterangepicker.css">
+    <link rel="stylesheet" href="assets/libs/dropzone5.7.0/css/dropzone.css">
+    <!-- <link href="assets/css/style.css" rel="stylesheet" /> -->
+    <link href="assets/css/main-style.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="assets/css/style-v2.css"> -->
+
+
+    <style>
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1600;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body id="surveyor-app">
+    <!-- Error modal for centralize -->
+    <div id="errmsgModal" class="modal" role="dialog" data-backdrop="false" style="display:none; z-index:1550 !important;">
+        <div class="modal-dialog modal-dialog-centered">
+           <div class="modal-content">
+              <div class="modal-header" style="background-color:#d9534f;color:#ffffff;">
+                 <h4 class="modal-title" id="error-modal-title" style="color: #ffffff !important;"></h4>
+                 <button type="button" class="close closeErrorModal" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                 <div id="errMsg" style="color:#ff5011;"></div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+    <!-- Google Tag Manager (noscript) -->
+  
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="loading" class="loader">
+        <div
+            style="z-index: 1610;-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%); width: 150px;  border-radius:5px; background: #fff; color:#333; text-align:center; font-size:13px; padding:10px 15px; margin-top: 20%; margin-left: 50%;">
+            <img src="assets/images/svg/loading.svg" /></div>
+    </div> 
+
+    <div id="app" style="flex: 1;"></div>
+
+    <div id="generated-feedback-loading"
+        style="position: fixed; top: 0;left: 0;z-index: 1600; width:100%; height: 100%; background: rgba(38, 28, 18, 0.4); display: none;">
+        <div
+            style="z-index: 1610;-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%); width: 150px;  border-radius:5px; background: #fff; color:#333; text-align:center; font-size:13px; padding:10px 15px; margin-top: 20%; margin-left: 50%;">
+            <img src="assets/img/loading.gif" /> Loading..</div>
+    </div>
+    <script src="assets/libs/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="assets/libs/popper.js/1.14.7/popper.min.js"></script>
+    <script src="assets/libs/bootstrap4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/libs/feather-icons/3.1.3/feather.min.js"></script>
+    <script src="assets/libs/parsley.js/2.8.0/parsley.min.js"></script>
+    <script src="assets/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="assets/libs/moment-range/2.2.0/moment-range.min.js"></script>
+    <script src="assets/libs/daterangepicker3.1.0/js/daterangepicker.min.js"></script>
+    <script src="assets/libs/dropzone5.7.0/js/dropzone.js"></script>
+    
+
+    <!--   Core JS Files   -->
+    <script>
+        document.getElementById('loading').style.visibility = 'hidden';
+
+        $(document).on('click', '.nav-button', function () {
+            $('body').toggleClass('nav-open');
+        });
+    </script>
+
+    <!-- **********************CLAIM APP SRC************************* -->
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATY-qKe9tI4ncgtxp-OyAkd66lJY5sQFI"></script>
+    <script type="text/javascript" src="assets/claim/js/map/googlemap.js"></script>
+    <script type="text/javascript" src="assets/claim/js/map/infobox.js"></script>
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+</body>
+
+
+
+</html>

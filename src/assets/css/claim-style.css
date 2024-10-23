@@ -1,0 +1,62 @@
+
+.al-center {
+    text-align: center;
+  }
+  
+  .al-left {
+    text-align: left;
+  }
+  
+  .al-right {
+    text-align: right;
+  }
+  
+  .row-manual {
+    display: table;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    /*border-spacing: 10px; Optional*/
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .col-manual {
+    display: table-cell;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: red; Optional*/
+  }
+
+  
+.modal-dl-fullscreen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal-ct-fullscreen {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
+  
+  .gm-style img {
+    box-sizing: initial;
+    max-width: none;
+  }
+
+  .tangen-border{
+    border-radius: .25rem !important;text-align: center;
+  }
+
+  body.loginBody {
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .wrapper {
+    margin-top: 0px;
+  }

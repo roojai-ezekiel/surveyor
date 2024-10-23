@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tick-inside-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thank-you-page-1024" transform="translate(-475.000000, -261.000000)">
+            <g id="tick-inside-circle" transform="translate(475.000000, 261.000000)">
+                <polygon id="Shape" fill="#FF4F03" fill-rule="nonzero" points="20.3790982 27.9780839 15.54338 32.8138021 31.0867599 48.3571821 65.6276043 13.8163377 60.791886 8.98061953 31.0867599 38.6857457"></polygon>
+                <path d="M62.1735198,34.5408443 C62.1735198,49.7388159 49.7388159,62.1735198 34.5408443,62.1735198 C19.3428728,62.1735198 6.90816887,49.7388159 6.90816887,34.5408443 C6.90816887,19.3428728 19.3428728,6.90816887 34.5408443,6.90816887 C37.3041119,6.90816887 39.721971,7.25357731 42.1398301,7.9443942 L47.6665006,2.4178591 C43.5214639,1.03622533 39.0311541,0 34.5408443,0 C15.54338,0 0,15.54338 0,34.5408443 C0,53.5383087 15.54338,69.0816887 34.5408443,69.0816887 C53.5383087,69.0816887 69.0816887,53.5383087 69.0816887,34.5408443 L62.1735198,34.5408443 Z" id="Path" fill="#FFBEA1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

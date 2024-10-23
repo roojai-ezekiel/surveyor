@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.197492074">
+        <g id="home-menu" transform="translate(-20.000000, -326.000000)" fill="#003D69">
+            <path d="M38,328 L30,328 L28,326 L22,326 C20.9,326 20,326.9 20,328 L20,340 C20,341.1 20.9,342 22,342 L38,342 C39.1,342 40,341.1 40,340 L40,330 C40,328.9 39.1,328 38,328 L38,328 Z M33,331 C34.1,331 35,331.9 35,333 C35,334.1 34.1,335 33,335 C31.9,335 31,334.1 31,333 C31,331.9 31.9,331 33,331 L33,331 Z M37,339 L29,339 L29,338 C29,336.7 31.7,336 33,336 C34.3,336 37,336.7 37,338 L37,339 L37,339 Z" id="profile"></path>
+        </g>
+    </g>
+</svg>

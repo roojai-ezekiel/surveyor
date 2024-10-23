@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>promos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-menu" transform="translate(-18.000000, -544.000000)">
+            <g id="promos" transform="translate(16.000000, 542.000000)">
+                <rect id="bounds-2" x="0" y="0.233398438" width="24" height="24"></rect>
+                <path d="M5.5,7 C4.672,7 4.001,6.327 4.001,5.5 C4.001,4.672 4.672,4 5.5,4 C6.328,4 7,4.672 7,5.5 C7,6.327 6.328,7 5.5,7 M10.999,2 L2,2 L2,11 C2,11.552 2.225,12.051 2.587,12.415 L11.59,21.413 C11.951,21.775 12.451,22 13.004,22 C13.557,22 14.057,21.776 14.418,21.415 L21.412,14.42 C21.775,14.058 22,13.556 22,13.004 C22,12.451 21.777,11.95 21.413,11.59 L12.415,2.585 C12.051,2.225 11.552,2 10.999,2" id="Fill-9" fill="#003D69" opacity="0.2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

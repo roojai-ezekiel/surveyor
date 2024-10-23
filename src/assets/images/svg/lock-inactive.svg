@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="78px" viewBox="0 0 46 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.584975091">
+        <g id="otp-message" transform="translate(-156.000000, -182.000000)" fill="#003D69">
+            <g id="lock-inactive" transform="translate(151.000000, 182.000000)">
+                <text id="****" opacity="0.911458333" font-family="Verdana-Bold, Verdana" font-size="17" font-weight="bold">
+                    <tspan x="3.91057141" y="81.3000607">****</tspan>
+                </text>
+                <text id="lock---nc-demo_outline" opacity="0.911458333" font-family="nc-demo_outline" font-size="57" font-weight="normal" fill-opacity="0.271031476">
+                    <tspan x="0" y="57"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

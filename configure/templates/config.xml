@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+    {widget.platform}="{widget.versionCode}" 
+    id="{widget.id}" version="{widget.version}" 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+>
+
+    <name>{widget.appName}</name>
+    <description>
+        A sample Apache Cordova application that responds to the  event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="sightcall:*" />
+    <allow-intent href="http://*" />
+    <allow-intent href="https://*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/roojai/icon/android/surveyor.png" />
+
+        <icon density="ldpi" src="res/roojai/icon/android/surveyor.png" />
+        <icon density="mdpi" src="res/roojai/icon/android/surveyor.png" />
+        <icon density="hdpi" src="res/roojai/icon/android/surveyor.png" />
+        <icon density="xhdpi" src="res/roojai/icon/android/surveyor.png" />
+        <preference name="loadUrlTimeoutValue" value="700000" />
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="android-minSdkVersion" value="22" />
+        <!-- To support any android version -->
+        <!-- <preference name="AndroidPersistentFileLocation" value="Compatibility" /> -->
+        <!-- Fix UI dancing -->
+        <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application/activity[@android:name='MainActivity']" mode="merge" xmlns:android="http://schemas.android.com/apk/res/android">
+            <activity android:windowSoftInputMode="adjustPan" />
+        </edit-config>
+        <!-- Fix UI dancing -->
+        <!--To solve upload image Android10-->
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+            <application android:requestLegacyExternalStorage="true" />
+        </edit-config>
+        <!--To solve upload image Android10-->
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
